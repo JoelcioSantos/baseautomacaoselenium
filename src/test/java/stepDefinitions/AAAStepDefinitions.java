@@ -9,7 +9,6 @@ public class AAAStepDefinitions extends AbstractStepDefinitions {
 
    @Dado("que estou no google chrome")
     public void que_estou_no_google_chrome() {
-
         open("https://youtube.com");
    }
 
