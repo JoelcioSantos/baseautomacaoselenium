@@ -19,7 +19,7 @@ public abstract class AbstractStepDefinitions {
     }
 
     public void open(String url) {
-        driver.navigate().to(url);
+        driver.get(url);
     }
 
     public WebElement findElement(By by) {
